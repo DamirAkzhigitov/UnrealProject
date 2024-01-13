@@ -14,7 +14,6 @@ AMyFirstButton::AMyFirstButton()
 	static ConstructorHelpers::FObjectFinder<UStaticMesh>ButtonMeshAsset(TEXT("/Script/Engine.StaticMesh'/Game/FirstPerson/Maps/ButtonMesh.ButtonMesh'"));
 	_MeshComponent->SetStaticMesh(ButtonMeshAsset.Object);
 	_MeshComponent->SetupAttachment(_BoxComponent);
-	// test for git
 }
 
 // Called when the game starts or when spawned
